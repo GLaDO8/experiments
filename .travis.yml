@@ -11,6 +11,8 @@ branches:
 cache:
   directories:
   - node_modules
+git:
+  depth: 3
   
 deploy:
   provider: pages
@@ -18,8 +20,9 @@ deploy:
   github-token: $GITHUB_TOKEN
   local_dir: public
   keep-history: true
+  target-branch: master
   on:
-    branch: master
+    branch: develop
 
 before_script:
   - "npm i -g gatsby-cli"
@@ -27,5 +30,3 @@ before_script:
 
 script:
   - gatsby build
-
-938abaaeefddcb3f2dc2343e0d2437663a516ea4
