@@ -13,7 +13,10 @@ cache:
   - node_modules
 git:
   depth: 3
-  
+
+script:
+  - gatsby build
+
 deploy:
   provider: pages
   skip-cleanup: true
@@ -21,12 +24,11 @@ deploy:
   local_dir: public
   keep-history: true
   target-branch: master
+  verbose: true
   on:
     branch: develop
 
-before_script:
-  - "npm i -g gatsby-cli"
-  - "yarn"
+# before_script:
+#   - "npm i -g gatsby-cli"
+#   - "yarn"
 
-script:
-  - gatsby build
