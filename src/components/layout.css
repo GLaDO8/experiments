@@ -1,0 +1,11 @@
+body {
+  width: 100%;
+  background-color: #0a0a0a;
+  overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+}
+
+body.noScroll { /* ...or body.dialogShowing */
+  overflow: hidden;
+}

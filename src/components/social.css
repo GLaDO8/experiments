@@ -1,0 +1,37 @@
+/* ul {
+    float: right;
+    list-style: none; 
+    display: table;
+    width: 400px;
+    text-align: center;
+    padding-right: 50px;
+    top: 300px;
+  }
+
+li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 0px;
+}
+
+.icons {
+  display: table-cell; 
+  position: relative; 
+  padding: 0px;
+} */
+
+.icon_tray {
+  right               : 10px;
+  position            : relative;
+  }  
+.icon_tray li {
+  display: block;
+  padding: 10px;
+  /* left: 600px; */
+  }
+.icon_tray li a {
+  }
+.icon_tray li svg {
+  width:20px;
+  height:20px;
+}
