@@ -1,0 +1,79 @@
+.sidebar{
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    height: 100%;
+  }
+  .butt{
+    width: 56px;
+    opacity: 1;
+    z-index: 0;
+    background: url(../images/side-texture.png);
+    background-size: 800px;
+    background-clip: content-box;
+    // background-color: #BF85A0;
+    transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+    text-decoration: none;
+    box-shadow: none;
+  }
+  .butt:hover{
+    opacity: 0.8;
+    
+  }
+  .icon-text{
+    font: bold 30px "IBM Plex Sans", Helvetica, Arial, serif;
+    color: #232323;
+    font-weight: 500;
+    writing-mode: vertical-lr;
+    margin: 20px 0px 0px 7px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    
+  }
+  .sidebar Link span{
+    transition: transform 0.5s ease-out;
+  }
+  .sidebar Link span:hover{
+    transform: translateY(100px);
+  }
+  .butt-c1{
+    background-color: #FFA300;
+    border: 0px;
+    background-position: 50% 50%;
+  }
+  .butt-c2{
+    background-color: #FF780B;
+    border: 0px;
+    background-position: 57.5% 50%;
+  }
+  .butt-c3{
+    background-color: #F57677;
+    border: 0px;
+    background-position: 65% 50%;
+  }
+  .butt-c4{
+    background-color: #C981A1;
+    border: 0px;
+    background-position: 72.5% 50%;
+  }
+  .butt-c5{
+    background-color: #009DB0;
+    border: 0px;
+    background-position: 80% 50%;
+  }
+  .butt-c6{
+    background-color: #00A491;
+    border: 0px;
+    background-position: 87.5% 50%;
+  }
