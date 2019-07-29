@@ -1,23 +1,23 @@
 const path = require(`path`)
-
+const autoprefixer = require("autoprefixer")
 module.exports = {
   siteMetadata: {
     title: `Shreyas Gupta | Portfolio`,
-  },  
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
         path: path.join(__dirname, `src`, `images`),
-      }
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
         path: path.join(__dirname, `src`, `pages`),
-      }
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -29,21 +29,33 @@ module.exports = {
     {
       resolve: "gatsby-plugin-react-svg",
       options: {
-        rule: {
-        }
-      }
+        rule: {},
+      },
     },
     //disqus plugin for comments
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
-        shortname: `shreyasgupta`
-      }
+        shortname: `shreyasgupta`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-postcss-sass`,
+      options: {
+        postCssPlugins: [
+          autoprefixer({
+            browsers: ["last 2 versions", "not ie 10"], //I dont normally support ie10 now adays
+            grid: true,
+          }),
+        ],
+        precision: 8,
+      },
     },
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
+    `gatsby-plugin-postcss`,
   ],
 }

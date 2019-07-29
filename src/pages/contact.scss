@@ -1,90 +1,127 @@
-/* reset */
-#fs-frm input,
-#fs-frm select,
-#fs-frm button,
-#fs-frm textarea,
-#fs-frm fieldset,
-#fs-frm optgroup,
-#fs-frm label {
-  font-family: inherit;
-  font-size: 100%;
-  color: inherit;
-  border: none;
-  border-radius: 0;
+label {
+  font: 28px "IBM Plex Sans", Helvetica, Arial, serif;
+  font-weight: 700;
+  color: #faece0;
+  position: relative;
   display: block;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  margin-bottom: 10px;
 }
-#fs-frm label,
-#fs-frm legend {
-  font-size: .825em;
-  margin-bottom: .5em;
+h1 {
+  font: bold 74px "IBM Plex Sans", Helvetica, Arial, serif;
+  color: #faece0;
+  text-align: center;
+  padding: 40px;
 }
-/* border, padding, margin, width */
-#fs-frm input,
-#fs-frm select,
-#fs-frm button,
-#fs-frm textarea {
-  border: 1px solid rgba(0,0,0,0.2);
-  background-color: rgba(255,255,255,0.9);
-  padding: .75em 1em;
-  margin-bottom: 1.5em;
+.input {
+  display: block;
+  font: 24px "IBM Plex Sans", Helvetica, Arial, serif;
+  font-weight: 400;
+  color: #6f6f6f;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2d2d2d;
+  border-radius: 8px;
+  border: 0px;
+  -webkit-box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.5);
 }
-#fs-frm input:focus,
-#fs-frm select:focus,
-#fs-frm textarea:focus {
-  background-color: white;
-  outline-style: solid;
-  outline-width: thin;
-  outline-color: gray;
-  outline-offset: -1px;
-}
-#fs-frm [type="text"],
-#fs-frm [type="email"] {
-  width: 100%;
-}
-#fs-frm button,
-#fs-frm [type="button"],
-#fs-frm [type="submit"],
-#fs-frm [type="reset"] {
-  width: auto;
-  cursor: pointer;
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
-}
-#fs-frm button:focus,
-#fs-frm [type="button"]:focus,
-#fs-frm [type="submit"]:focus,
-#fs-frm [type="reset"]:focus {
+.close {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  overflow: hidden;
+  border: none;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/113212/cross.png)
+    no-repeat center center;
+  text-indent: 200%;
   outline: none;
+  color: transparent;
+  z-index: 100;
 }
-#fs-frm [type="submit"],
-#fs-frm [type="reset"] {
-  margin-bottom: 0;
+::placeholder {
+  position: relative;
+  margin: 0px;
+  padding-left: 15px;
 }
-#fs-frm button,
-#fs-frm select {
-  text-transform: none;
+textarea::placeholder {
+  position: relative;
+  margin: 0px;
+  padding-top: 15px;
+  padding-left: 15px;
 }
-
-/* address, locale */
-#fs-frm fieldset.locale input[name="city"],
-#fs-frm fieldset.locale select[name="state"],
-#fs-frm fieldset.locale input[name="postal-code"] {
-  display: inline;
+.bbutt {
+  width: 44px;
+  opacity: 1;
+  z-index: 0;
+  border-radius: 8px 8px 0px 0px;
+  border: 0px;
 }
-#fs-frm fieldset.locale input[name="city"] {
-  width: 52%;
+.bottomdesign {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  position: relative;
+  z-index: 2;
+  height: 100px;
+  align-content: flex-end;
+  line-height: 0;
+  margin-bottom: 0px;
+  bottom: 0;
+  padding-bottom: 0px;
 }
-#fs-frm fieldset.locale select[name="state"],
-#fs-frm fieldset.locale input[name="postal-code"] {
-  width: 20%;
+.bbutt-c1 {
+  background-color: #ffa300;
+  border: 0px;
+  background-position: 50% 50%;
+  margin: 0px 20px 0px 20px;
 }
-#fs-frm fieldset.locale input[name="city"],
-#fs-frm fieldset.locale select[name="state"] {
-  margin-right: 3%;
+.bbutt-c2 {
+  background-color: #ff780b;
+  border: 0px;
+  background-position: 57.5% 50%;
+  margin: 0px 20px 0px 20px;
+}
+.bbutt-c3 {
+  background-color: #f57677;
+  border: 0px;
+  background-position: 65% 50%;
+  margin: 0px 20px 0px 20px;
+}
+.bbutt-c4 {
+  background-color: #c981a1;
+  border: 0px;
+  background-position: 72.5% 50%;
+  margin: 0px 20px 0px 20px;
+}
+.bbutt-c5 {
+  background-color: #009db0;
+  border: 0px;
+  background-position: 80% 50%;
+  margin: 0px 20px 0px 20px;
+}
+.bbutt-c6 {
+  background-color: #00a491;
+  border: 0px;
+  background-position: 87.5% 50%;
+  margin: 0px 20px 0px 20px;
+}
+.nameinput,
+.mailinput {
+  height: 60px;
+  width: 467px;
+}
+.messageinput {
+  height: 160px;
+  width: 467px;
+}
+.customisation {
+  display: none;
+}
+.formbox {
+  border: 0px;
 }

@@ -1,29 +1,32 @@
 .icon_tray {
-  z-index: 2;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  padding-right: 8px;
-  }  
+    z-index: 2;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding-right: 8px;
+}
+
 .icon_tray li {
-  display: block;
-  padding: 10px;
-  /* left: 600px; */
-  }
+    display: block;
+    padding: 10px;
+    /* left: 600px; */
+}
+
 .icon_tray li svg {
-  width:20px;
-  height:20px;
+    width: 20px;
+    height: 20px;
 }
-.svg{
-  opacity: 0.65;
-  scale: 1;
-  transition: opacity .3s ease-out;
-  -moz-transition: opacity .3s ease-out;
-  -webkit-transition: opacity .3s ease-out;
-  -o-transition: opacity .3s ease-out;
+
+.svg {
+    opacity: 0.65;
+    scale: 1;
+    transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
 }
-.svg:hover{
-  scale: 2;
-  opacity: 1;
-  
+
+.svg:hover {
+    scale: 2;
+    opacity: 1;
 }

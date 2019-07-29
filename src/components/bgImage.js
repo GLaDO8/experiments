@@ -1,9 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Img from "gatsby-image";
-import styled from "styled-components"; //styled-components are CSS-in-JS style
+import React from "react"
+import PropTypes from "prop-types"
+import Img from "gatsby-image"
+import styled from "styled-components" //styled-components are CSS-in-JS style
 
-//CSS-in-JS allows you to put CSS inside your JS file itself, eliminating the confusion caused by CSS selectors. 
+//CSS-in-JS allows you to put CSS inside your JS file itself, eliminating the confusion caused by CSS selectors.
 
 const FakeBgImage = styled(Img)`
   position: fixed;
@@ -13,11 +13,9 @@ const FakeBgImage = styled(Img)`
   height: 100%;
   z-index: 2;
   margin-right: -20px;
-`;
+`
 
-const Content = styled.div`
-
-`;
+const Content = styled.div``
 
 const BgImage = ({
   fluid,
@@ -25,7 +23,7 @@ const BgImage = ({
   height,
   mobileHeight,
   children,
-  className
+  className,
 }) => (
   <div>
     <FakeBgImage
@@ -36,7 +34,7 @@ const BgImage = ({
     />
     <Content className={className}>{children}</Content>
   </div>
-);
+)
 
 BgImage.propTypes = {
   fluid: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
@@ -45,7 +43,7 @@ BgImage.propTypes = {
   mobileHeight: PropTypes.string,
   overlayColor: PropTypes.string,
   children: PropTypes.node,
-  className: PropTypes.string
-};
+  className: PropTypes.string,
+}
 
-export default BgImage;
+export default BgImage

@@ -6,15 +6,15 @@ image: ''
 tags: ['javascript','react','gatsby']
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation **ullamco** laboris nisi ut aliquip ex ea commodo [consequat](https://www.google.com). Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation **ullamco** laboris nisi ut aliquip ex ea commodo [consequat](https://www.google.com). Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\
 
-You’ve probably been in situations where you feel like a caveman in a restaurant, have no clue what to order. Maybe you came by a surprise seeing all the things the place serves, or probably you have no clue what “bruschetta al pomodoro” is. Don’t worry, even I end up googling stuff most of the time. Cuisines can be a huge pain in the…umm…brain?  
+You’ve probably been in situations where you feel like a caveman in a restaurant, have no clue what to order. Maybe you came by a surprise seeing all the things the place serves, or probably you have no clue what “bruschetta al pomodoro” is. Don’t worry, even I end up googling stuff most of the time. Cuisines can be a huge pain in the…umm…brain?\
 
-But cuisines can explain a lot of things about the place of origin. Every morsel that melts on your tongue has a story behind it. Every cuisine was born out revised perfection and love for centuries. If Ramsay Gordon’s love for detail and perfectionism isn’t sufficient, I’d say it again, believe it or not - there are some core elements, principles, and guidelines which form the base framework on which the food is prepared.  
+But cuisines can explain a lot of things about the place of origin. Every morsel that melts on your tongue has a story behind it. Every cuisine was born out revised perfection and love for centuries. If Ramsay Gordon’s love for detail and perfectionism isn’t sufficient, I’d say it again, believe it or not - there are some core elements, principles, and guidelines which form the base framework on which the food is prepared.\
 
-**Mediterranean** - *olive (gives olive oil), wheat (gives the bread and pasta) and grape (gives the wine)*  
+**Mediterranean** - *olive (gives olive oil), wheat (gives the bread and pasta) and grape (gives the wine)*\
 
-Mediterranean cuisine is a broad view of food from the Mediterranean basin, with regions like Greece, Italy, Egypt, French etc. Though generalized, each of these regions has very different food and culture.  
+Mediterranean cuisine is a broad view of food from the Mediterranean basin, with regions like Greece, Italy, Egypt, French etc. Though generalized, each of these regions has very different food and culture.\
 
 The way food is prepared and had changes vastly as we move from northern to Southern Europe. Beer is replaced with wine and butter with olive oil. Many people, even nutritionists believe that following a Mediterranean diet is the healthiest. Olive oil cleans your coronary tracts and vessels. Each color in vegetables represents different type of anti-oxidants and nutrients. More than the food, its the social life it promotes. Celebrating and enjoying harvests of wheat, grapes, and olives with friends and families while dancing and laughing is the key to a happy life! Now go have some pasta will ya ?!  
 

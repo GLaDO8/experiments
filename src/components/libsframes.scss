@@ -1,0 +1,27 @@
+.icon_bank {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  padding-bottom: 0px;
+}
+.icon_bank a {
+  padding: 10px;
+}
+.icon_bank a svg {
+  height: 100px;
+  width: 100%;
+}
+.svg-icon {
+  filter: grayscale(100%);
+  transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+.svg-icon:hover {
+  transform: scale(1.2);
+  filter: grayscale(0%);
+  filter: url(../images/react-inactive.svg);
+}
