@@ -3,7 +3,7 @@ import Gatsby from "../images/gatsby.svg"
 import Tailwind from "../images/tailwind.svg"
 import Travis from "../images/travis.svg"
 import Reacticon from "../images/reacticon.svg"
-import "./libsframes.scss"
+import "./libsframes.css"
 
 const Libsframes = () => (
   <div class="icon_bank">

@@ -1,13 +1,9 @@
-*{
-  margin: 0;
-  padding: 0;
-}
 body {
   height: 100%;
   width: 100%;
   background-color: #161616;
 }
-// @mixin zebra-shadow($size, $colors) {
+/* // @mixin zebra-shadow($size, $colors) {
 //   $text-shadow: ();
 //   @for $i from 1 through length($colors) {
 //     @for $j from 0 through $size {
@@ -38,7 +34,7 @@ body {
 
 // from, 19.9% {
 //     @include zebra-shadow(3, (
-//       $blue, $pink, $yellow, $maroon,$red, $green, 
+//       $blue, $pink, $yellow, $maroon,$red, $green,
 //     ));
 //   }
 
@@ -65,8 +61,8 @@ body {
 //       $pink, $maroon,$yellow, $red, $green, $blue
 //     ));
 //   }
-// }
-.bg{
+// } */
+.bg {
   position: absolute;
   z-index: -1;
   height: 100%;
@@ -74,67 +70,65 @@ body {
   padding: 0;
   margin-left: 40px;
 }
-.primarytext{
+.primarytext {
   position: absolute;
   width: 60%;
   height: auto;
   padding: 30px 30px 0px 30px;
-  font         : bold 74px "IBM Plex Sans", Helvetica, Arial, serif;
-  font-weight         : 700;
-  color               : #FAECE0;
-  letter-spacing      : -0.2px;
-  line-height         : 69.0px;
+  font: bold 74px "IBM Plex Sans", Helvetica, Arial, serif;
+  font-weight: 700;
+  color: #faece0;
+  letter-spacing: -0.2px;
+  line-height: 69px;
   text-transform: uppercase;
-  text-align          : left;
-  animation:
-    text-shadow 1.5s linear infinite;
+  text-align: left;
+  animation: text-shadow 1.5s linear infinite;
 }
-.primarytext2{
+.primarytext2 {
   position: absolute;
   width: 60%;
   height: auto;
   padding: 32px 30px 0px 32px;
-  font         : bold 74px "IBM Plex Sans", Helvetica, Arial, serif;
-  font-weight         : 700;
-  color               :#FEA732;
-  letter-spacing      : -0.2px;
-  line-height         : 69.0px;
+  font: bold 74px "IBM Plex Sans", Helvetica, Arial, serif;
+  font-weight: 700;
+  color: #fea732;
+  letter-spacing: -0.2px;
+  line-height: 69px;
   text-transform: uppercase;
-  text-align          : left;
-  animation:
-    text-shadow 1.5s linear infinite;
+  text-align: left;
+  animation: text-shadow 1.5s linear infinite;
 }
 
-.captiontext{
+.captiontext {
   position: relative;
   width: 60%;
   height: auto;
   padding: 235px 30px 0px 30px;
-  font         : italic 48px "IBM Plex Sans", Helvetica, Arial, serif;
-  color               : #FAECE0;
-  letter-spacing      : -0.13px;
-  line-height         : 62.0px;
-  text-align          : left;
+  font: italic 48px "IBM Plex Sans", Helvetica, Arial, serif;
+  color: #faece0;
+  letter-spacing: -0.13px;
+  line-height: 62px;
+  text-align: left;
   font-weight: 400;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 
 .secondarytext {
   position: relative;
-  height              : auto;
-  width               : 60%;
+  height: auto;
+  width: 60%;
   padding: 150px 30px 0px 30px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "IBM Plex Sans", Helvetica, Arial, serif;
-  font-weight         : 600;
-  font-style          : normal;
-  font-size           : 28.0px;
-  color               : #FAECE0;
-  text-align          : left;
-  letter-spacing      : -0.08px;
-  line-height         : 42.0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "IBM Plex Sans", Helvetica, Arial, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 28px;
+  color: #faece0;
+  text-align: left;
+  letter-spacing: -0.08px;
+  line-height: 42px;
 }

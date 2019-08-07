@@ -16,7 +16,7 @@
   background: url(../images/side-texture.png);
   background-size: 800px;
   background-clip: content-box;
-  // background-color: #BF85A0;
+  /* // background-color: #BF85A0; */
   transition: opacity 0.3s ease-out;
   -moz-transition: opacity 0.3s ease-out;
   -webkit-transition: opacity 0.3s ease-out;
@@ -31,7 +31,7 @@
   font: bold 30px "IBM Plex Sans", Helvetica, Arial, serif;
   color: #232323;
   font-weight: 600;
-  // opacity: 0.85;
+  /* // opacity: 0.85; */
   writing-mode: vertical-lr;
   margin: 20px 0px 0px 7px;
   -webkit-transform: rotate(180deg);

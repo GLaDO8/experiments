@@ -19,7 +19,7 @@
     "autoprefixer": "^9.6.1",
     "babel-plugin-styled-components": "^1.10.0",
     "browser-monads": "^1.0.0",
-    "gatsby": "^2.13.39",
+    "gatsby": "^2.13.52",
     "gatsby-background-image": "^0.7.0",
     "gatsby-cli": "^2.6.7",
     "gatsby-image": "^2.1.2",
@@ -43,7 +43,6 @@
     "react-helmet": "^5.2.1",
     "styled-components": "^4.3.1",
     "tailwind.macro": "^0.5.10",
-    "tailwindcss": "^1.0.5",
     "ts-pnp": "^1.1.2"
   },
   "devDependencies": {
@@ -54,7 +53,10 @@
     "@storybook/react": "^5.1.9",
     "babel-loader": "^8.0.6",
     "gh-pages": "^2.0.1",
-    "prettier": "^1.17.1"
+    "install-peers": "^1.0.3",
+    "prettier": "^1.17.1",
+    "tailwindcss": "^1.0.6",
+    "webpack": "^4.39.1"
   },
   "repository": {
     "type": "git",

@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import { graphql } from "gatsby"
 import Social from "../components/social"
 import Background from "../images/texture-n.svg"
-import "./index.scss"
+import "./index.css"
 
 const IndexPage = () => (
   <Layout>
@@ -14,25 +14,19 @@ const IndexPage = () => (
     </div>
     <Sidebar />
     <Background class="bg" />
-    <div class="clipper">
-      <SEO
-        title="Shreyas Gupta"
-        keywords={[`Portfolio`, `Blog`, `Shreyas Gupta`]}
-      />
-      {/* <Nav/> */}
-      <div class="primarytext2">
-        Design. Tech. code. Food. cats. photography.
-      </div>
-      <div class="primarytext">
-        Design. Tech. code. Food. cats. photography.
-      </div>
-      <div class="captiontext">Oh, and Indie games!</div>
-      <div class="secondarytext">
-        Hey there! I’m Shreyas Gupta, a data scientist turned self-taught
-        designer based in India.
-      </div>
-      <Social />
+    <SEO
+      title="Shreyas Gupta"
+      keywords={[`Portfolio`, `Blog`, `Shreyas Gupta`]}
+    />
+    {/* <Nav/> */}
+    <div class="primarytext2">Design. Tech. code. Food. cats. photography.</div>
+    <div class="primarytext">Design. Tech. code. Food. cats. photography.</div>
+    <div class="captiontext">Oh, and Indie games!</div>
+    <div class="secondarytext">
+      Hey there! I’m Shreyas Gupta, a data scientist turned self-taught designer
+      based in India.
     </div>
+    <Social />
   </Layout>
 )
 
