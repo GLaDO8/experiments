@@ -1,0 +1,44 @@
+.article {
+  display: grid;
+  grid-template-columns: 1fr 800px 1fr;
+}
+/* the "\*" is basically selecting all content. the backslash is to escape syntax */
+.article > \* {
+  grid-column: 2;
+}
+.article > .cover_image {
+  grid-column: 1 / -1;
+  margin: 37px 0;
+}
+.date {
+  font: 18px "consola", Helvetica, Arial, serif;
+  margin-top: 15px;
+  color: #9c9c9c;
+  letter-spacing: 1.22px;
+}
+.title {
+  font: bold 44px "IBM Plex Sans", Helvetica, Arial, serif;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 10px;
+  line-height: 1em;
+}
+.subtitle {
+  font: 28px "IBM Plex Sans", Helvetica, Arial, serif;
+  margin-top: 15px;
+  text-align: left;
+  font-weight: 300;
+}
+.main_body {
+  font: 20px "IBM Plex Sans", Helvetica, Arial, serif;
+  color: #392f26;
+  line-height: 1.5em;
+  width: 34em;
+  max-width: 100%;
+  margin-top: 30px;
+  font-weight: 400;
+}
+.main_body > a {
+  color: #ce2061;
+}

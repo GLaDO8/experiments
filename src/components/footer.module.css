@@ -1,0 +1,44 @@
+.footer_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #111111;
+  height: 330px;
+}
+.footer_box > div > .mail_box > .mail_link {
+  font: 18px "consola", Helvetica, Arial, serif;
+  color: #737373;
+  padding-left: 50px;
+}
+.mail_box {
+  padding-top: 25px;
+}
+.footer_title {
+  padding-top: 50px;
+  font: 22px "consola", Helvetica, Arial, serif;
+  color: #737373;
+  letter-spacing: 1.6px;
+  padding-left: 50px;
+}
+.footer_content {
+  font: 18px "IBM Plex Sans", Helvetica, Arial, serif;
+  color: #737373;
+  width: 500px;
+  padding-left: 50px;
+  padding-top: 25px;
+}
+.footer_links {
+  padding-left: 42px;
+  padding-top: 20px;
+}
+.shoutout {
+  font: 16px "IBM Plex Sans", Helvetica, Arial, serif;
+  color: #737373;
+  width: 150px;
+  padding-top: 200px;
+  padding-right: 50px;
+}
+.shoutout > span > a {
+  color: #737373;
+}

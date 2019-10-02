@@ -1,5 +1,4 @@
 const path = require(`path`)
-const autoprefixer = require("autoprefixer")
 module.exports = {
   siteMetadata: {
     title: `Shreyas Gupta | Portfolio`,
@@ -39,23 +38,12 @@ module.exports = {
         shortname: `shreyasgupta`,
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-postcss-sass`,
-    //   options: {
-    //     postCssPlugins: [
-    //       autoprefixer({
-    //         browsers: ["last 2 versions", "not ie 10"], //I dont normally support ie10 now adays
-    //         grid: true,
-    //       }),
-    //     ],
-    //     precision: 8,
-    //   },
-    // },
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-styled-components`,
-    // `gatsby-plugin-sass`,
+    `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
-    `gatsby-plugin-postcss`,
+    `gatsby-plugin-catch-links`,
+    "gatsby-mdx",
   ],
 }

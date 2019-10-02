@@ -1,0 +1,29 @@
+.navbar {
+  justify-content: flex-start;
+  display: flex;
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  z-index: 2;
+}
+.navbar .icon_text {
+  text-decoration: none !important;
+}
+.main_logo {
+  margin: 37px 0px 0px 40px;
+}
+.logo_text {
+  font: bold 22px "IBM Plex Sans", Helvetica, Arial, serif;
+  color: #ffffff;
+}
+
+.icon_text {
+  font: 18px "IBM Plex Sans", Helvetica, Arial, serif;
+  color: #676767;
+  font-weight: 400;
+  margin: 20px 0px 0px 30px;
+  transition: 0.25s ease-in-out;
+}
+.icon_text:hover {
+  color: #ffffff;
+}

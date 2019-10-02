@@ -1,0 +1,52 @@
+.postbox {
+  background-color: #131313;
+  border-color: none;
+  border-radius: 8px;
+  height: 460px;
+  width: 300px;
+  margin: 30px;
+}
+.listtt {
+  display: flex;
+  flex-direction: row;
+}
+.post_list .posttitle {
+  font: bold 20px "IBM Plex Sans", Helvetica, Arial, serif;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+.post_list .description {
+  margin-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font: 16px "IBM Plex Sans", Helvetica, Arial, serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-decoration: none;
+  line-height: 24px;
+}
+.post_list .uploaddate {
+  font: 16px "consola", Helvetica, Arial, serif;
+  color: #9c9c9c;
+  padding-left: 20px;
+  margin-top: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.post_list .uploadtime {
+  font: 16px "Inconsolata", Helvetica, Arial, serif;
+  color: #9c9c9c;
+  padding-left: 20px;
+  margin-top: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.post_image {
+  padding: 24px;
+  padding-bottom: 0px;
+  height: 250px;
+  width: 250px;
+}

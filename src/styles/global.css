@@ -1,18 +1,15 @@
 /* IBM plex sans */
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:600&display=swap");
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400i,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
 
 /* IBM plex serif */
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif:700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif:600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif:600,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap");
 
-/* include tailwindcss files */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@font-face {
+  font-family: "consola";
+  src: url("../fonts/Consolas.woff") format("woff");
+}
 
 body {
   width: 100%;
@@ -21,8 +18,6 @@ body {
 }
 html,
 body {
-  background-color: #1c1c1c;
-  background: url(../images/rice.png);
   background-position: 0 0;
   -webkit-transition: opacity 0.2s ease;
   transition: opacity 0.2s ease;
@@ -31,4 +26,94 @@ body.noScroll {
   /* ...or body.dialogShowing */
   overflow: hidden;
   margin: 0;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+article ol li,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  color: #ffffff;
 }

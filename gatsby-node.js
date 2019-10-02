@@ -1,6 +1,7 @@
 const path = require("path")
 const { createFilePath, createFileNode } = require(`gatsby-source-filesystem`)
 
+// the connection between the blog post template and the blog article
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
   const blogPostTemplate = path.resolve(`src/templates/blog-post.js`)
@@ -62,16 +63,20 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 }
 
-//modifies the webpack.config.js file upon build
-exports.onCreateWebpackConfig = ({ actions, loaders }) => {
-  actions.setWebpackConfig({
-    module: {
-      rules: [
-        {
-          test: /\.css$/,
-          use: [loaders.style()],
-        },
-      ],
-    },
-  })
+if (process.env.NODE_ENV === "development") {
+  process.env.GATSBY_WEBPACK_PUBLICPATH = "/"
 }
+
+// modifies the webpack.config.js file upon build
+// exports.onCreateWebpackConfig = ({ actions, loaders }) => {
+//   actions.setWebpackConfig({
+//     module: {
+//       rules: [
+//         {
+//           test: /\.css$/,
+//           use: ["css-loader"],
+//         },
+//       ],
+//     },
+//   })
+// }

@@ -1,30 +1,51 @@
 import React from "react"
-// import Nav from '../components/nav';
-// import SEO from "../components/seo";
 import { Link, graphql } from "gatsby"
-// import BgImg from "../components/bgImage";
-// import Img from "gatsby-image"
-// import Social from "../components/social";
-import Layout from "../components/layout"
+import Navbar from "../components/navbar"
+import Footer from "../components/footer"
+import blogStyles from "./blog.module.css"
+import Img from "gatsby-image"
+import styled from "styled-components"
 
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  &:focus,
+  &:hover,
+  &:visited,
+  &:link,
+  &:active {
+    text-decoration: none;
+  }
+`
 const BlogPage = props => {
   const postList = props.data.allMarkdownRemark
   return (
-    <Layout>
-      {postList.edges.map(({ node }, i) => (
-        <Link to={node.fields.slug} key={i} className="link">
-          <div className="post-list">
-            <h1>{node.frontmatter.title}</h1>
-            <span>{node.frontmatter.date}</span>
-            <p>{node.excerpt}</p>
+    <div>
+      <Navbar />
+      <div class={blogStyles.listtt}>
+        {postList.edges.map(({ node }, i) => (
+          <div class={blogStyles.postbox}>
+            <StyledLink to={node.fields.slug} key={i} className="link">
+              <div className={blogStyles.post_list}>
+                <div class={blogStyles.post_image}>
+                  <Img
+                    fluid={node.frontmatter.thumbnail.childImageSharp.fixed}
+                  />
+                </div>
+                <p class={blogStyles.posttitle}>{node.frontmatter.title}</p>
+                <p class={blogStyles.description}>
+                  {node.frontmatter.description}
+                </p>
+                <p class={blogStyles.uploaddate}>{node.frontmatter.date}</p>
+              </div>
+            </StyledLink>
           </div>
-        </Link>
-      ))}
-    </Layout>
+        ))}
+      </div>
+      <Footer />
+    </div>
   )
 }
 export default BlogPage
-
 export const listQuery = graphql`
   query ListQuery {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
@@ -33,14 +54,29 @@ export const listQuery = graphql`
           fields {
             slug
           }
-          excerpt(pruneLength: 250)
           frontmatter {
-            date(formatString: "MMMM Do YYYY")
+            date
             title
+            description
+            thumbnail {
+              childImageSharp {
+                fixed(width: 400) {
+                  base64
+                  tracedSVG
+                  aspectRatio
+                  width
+                  height
+                  src
+                  srcSet
+                  srcWebp
+                  srcSetWebp
+                  originalName
+                }
+              }
+            }
           }
         }
       }
     }
   }
 `
-//(formatString: "MMMM Do YYYY")

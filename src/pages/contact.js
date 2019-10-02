@@ -1,6 +1,5 @@
 import React from "react"
-import "./contact.css"
-
+import "./contact.module.css"
 const AboutPage = () => (
   <form
     name="simple-contact-form"

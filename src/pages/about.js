@@ -1,10 +1,5 @@
 import React from "react"
-// import Background from "../images/texture-n.svg"
-import LibsFrames from "../components/libsframes"
+// import Background from "../images/texture-n.svg"libsframes"
 
-const AboutPage = () => (
-  <div>
-    <LibsFrames />
-  </div>
-)
+const AboutPage = () => <div></div>
 export default AboutPage
