@@ -17,7 +17,7 @@ const StyledLink = styled(Link)`
   }
 `
 const BlogPage = props => {
-  const postList = props.data.allMarkdownRemark
+  const postList = props.data.allMdx
   return (
     <div>
       <Navbar />
@@ -48,7 +48,7 @@ const BlogPage = props => {
 export default BlogPage
 export const listQuery = graphql`
   query ListQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMdx(sort: { fields: frontmatter___date, order: DESC }, limit: 10) {
       edges {
         node {
           fields {

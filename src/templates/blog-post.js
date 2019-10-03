@@ -4,9 +4,10 @@ import Navbar from "../components/navbar"
 import Footer from "../components/footer"
 import StyledBlogpost from "./blog-post.module.css"
 import Img from "gatsby-image"
+import MDXRenderer from "gatsby-plugin-mdx/mdx-renderer"
 
 function BlogPost(props) {
-  const post = props.data.markdownRemark
+  const post = props.data.mdx
   const { title, date, description, cover, tags } = post.frontmatter
 
   return (
@@ -19,10 +20,7 @@ function BlogPost(props) {
         <p class={StyledBlogpost.title}>{title}</p>
         <p class={StyledBlogpost.subtitle}>{description}</p>
         <p class={StyledBlogpost.date}>{date}</p>
-        <div
-          class={StyledBlogpost.main_body}
-          dangerouslySetInnerHTML={{ __html: post.html }}
-        />
+        <MDXRenderer>{post.body}</MDXRenderer>
       </div>
       <Footer />
       {/* <div>
@@ -49,31 +47,34 @@ function BlogPost(props) {
 export default BlogPost
 
 export const query = graphql`
-  query PostQuery($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
-      excerpt
+  query PostQuery {
+    mdx {
+      fields {
+        slug
+      }
       frontmatter {
-        title
         description
+        title
         date
         cover {
           childImageSharp {
             fixed(width: 1000) {
-              base64
-              tracedSVG
               aspectRatio
-              width
+              base64
               height
+              originalName
               src
               srcSet
-              srcWebp
               srcSetWebp
-              originalName
+              srcWebp
+              tracedSVG
+              width
             }
           }
         }
+        tags
       }
+      body
     }
   }
 `

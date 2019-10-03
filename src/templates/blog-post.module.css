@@ -12,7 +12,7 @@
 }
 .date {
   font: 18px "consola", Helvetica, Arial, serif;
-  margin-top: 15px;
+  margin-top: -10px;
   color: #9c9c9c;
   letter-spacing: 1.22px;
 }
@@ -26,18 +26,18 @@
 }
 .subtitle {
   font: 28px "IBM Plex Sans", Helvetica, Arial, serif;
-  margin-top: 15px;
+  margin-top: -20px;
   text-align: left;
   font-weight: 300;
 }
 .main_body {
-  font: 20px "IBM Plex Sans", Helvetica, Arial, serif;
-  color: #392f26;
+  font: 18px "IBM Plex Sans", Helvetica, Arial, serif;
+  color: #eeeeee;
   line-height: 1.5em;
   width: 34em;
   max-width: 100%;
   margin-top: 30px;
-  font-weight: 400;
+  font-weight: 300;
 }
 .main_body > a {
   color: #ce2061;

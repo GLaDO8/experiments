@@ -38,12 +38,17 @@ module.exports = {
         shortname: `shreyasgupta`,
       },
     },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+      },
+    },
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sass`,
-    `gatsby-transformer-remark`,
+    // `gatsby-transformer-remark`,
     `gatsby-plugin-catch-links`,
-    "gatsby-mdx",
   ],
 }
