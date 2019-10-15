@@ -30,13 +30,13 @@ Mexican food has been substantially influenced by the Spanish invasion of the Az
 **Indian** - Indian cuisine would be the most sophisticated one of all. Given the level of diversity in our country, the food culture changes rapidly as you travel across the country. British Invasion and settlement in the Bengal opened up seaports. Fishing emerged as a primary source of income for many households and fish eventually became (or stereotyped?) the core element in their food. Jain vegetarianism’s influence on Gujarati food brought in interesting ways of using pulses and vegetables. Despite being known for the consumption of rice, south Indian states aren’t the leading rice-producing states in India. Nevertheless, rice has heavily influenced almost all the famous dishes of south India. It’s one of the primary ingredients in idli, dosa, Wada, Pongal....you name it. No wonder why Indians are prone to diabetes. The Nizam rule in Telangana brought in the world famous dish, Biryani. Rise in Muslim population brought in Lebanese cuisine.
 
 **Chinese** - _Soy (soybean and tofu), rice, noodles, vegetables, meat_
-&nbsp;
+
 Yes, Manchuria is a place. No Manchurian is not exactly Chinese cuisine. It’s fascinating to see Manchurian, noodles and the Chinese dishes even in almost all Indian restaurants. They actually belong to a fusion of food culture called Hakka cuisine. Chinese mass migration (Chinese diaspora) is the reason why we can see elements of their cuisine in Japanese food and even in our food.
-&nbsp;
+
 It is Chinese food with seasoning and flavor, with a wide variety of vegetarian dishes favoring Indian tongues. The Chinese greatly value the principles of gastronomy. Their food was meticulously crafted over ages with medicinal beliefs and health in mind.
-&nbsp;
+
 I’ve always believed that food wasn’t offered to us by Mother Earth for gobbling up when hungry, but was to relish and fall in love daily.
-&nbsp;
+
 Enjoy food, don’t just eat it. _Bon Appétit!_
 
 Follow my Zomato reviews for interesting places to fool around in Bangalore and Hyderabad!

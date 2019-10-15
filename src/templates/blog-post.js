@@ -20,7 +20,7 @@ function BlogPost(props) {
         <p class={StyledBlogpost.title}>{title}</p>
         <p class={StyledBlogpost.subtitle}>{description}</p>
         <p class={StyledBlogpost.date}>{date}</p>
-        <MDXRenderer>{post.body}</MDXRenderer>
+        <MDXRenderer class={StyledBlogpost.main_body}>{post.body}</MDXRenderer>
       </div>
       <Footer />
       {/* <div>
@@ -59,16 +59,16 @@ export const query = graphql`
         cover {
           childImageSharp {
             fixed(width: 1000) {
-              aspectRatio
               base64
+              tracedSVG
+              aspectRatio
+              width
               height
-              originalName
               src
               srcSet
-              srcSetWebp
               srcWebp
-              tracedSVG
-              width
+              srcSetWebp
+              originalName
             }
           }
         }

@@ -26,7 +26,7 @@ const footer = () => (
     </div>
     <div>
       <p class={footerStyles.shoutout}>
-        Handmade with 🎔 using{" "}
+        Handmade with love using{" "}
         <span>
           <a
             href="https://www.sketch.com"
@@ -56,6 +56,14 @@ const footer = () => (
             Github pages
           </a>
         </span>
+        . View Github project{" "}
+        <a
+          href="https://github.com/GLaDO8/GLaDO8.github.io"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          here
+        </a>
         .
       </p>
     </div>
