@@ -25,7 +25,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: path.join(__dirname, `content`),
+        path: `${__dirname}/content`,
         name: "content",
       },
     },
@@ -81,5 +81,6 @@ module.exports = {
     // `gatsby-transformer-remark`,
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-polyfill-io`,
+    `gatsby-plugin-theme-ui`,
   ],
 }

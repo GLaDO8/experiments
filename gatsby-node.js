@@ -52,7 +52,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === `Mdx`) {
     //createFilePath creates a slug based on the title of the node (helper function of gatsby-source-filesystem)
-    const slug = createFilePath({ node, getNode, basePath: `pages` })
+    const slug = createFilePath({ node, getNode, basePath: `content` })
     //extends a node with additional fields
     createNodeField({
       node,
