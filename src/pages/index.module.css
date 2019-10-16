@@ -9,14 +9,16 @@ body {
   letter-spacing: -0.2px;
   line-height: 69px;
   text-align: center;
+  font-weight: 600;
 }
 .primarytext {
   position: relative;
   margin: 0%;
   height: auto;
-  margin-left: 10%;
+  max-width: 550px;
+  margin-left: 5%;
   padding: 80px 30px 0px 0px;
-  font: bold 66px "IBM Plex Serif", Helvetica, Arial, serif;
+  font: bold 66px "IBM Plex Sans", Helvetica, Arial, serif;
   font-weight: 700;
   color: #ffffff;
   letter-spacing: -0.2px;
@@ -24,7 +26,8 @@ body {
   text-align: left;
 }
 .caption_italic {
-  margin-left: 10%;
+  margin: 0%;
+  margin-left: 5%;
   padding: 30px 30px 0px 0px;
   font-family: "IBM Plex Sans", Helvetica, Arial, serif;
   color: #ffffff;
@@ -36,36 +39,26 @@ body {
   font-style: normal;
 }
 .secondarytext {
-  margin-left: 10%;
+  margin-left: 5%;
   position: relative;
   height: auto;
-  max-width: none;
+  max-width: 700px;
   padding: 10px 30px 0px 0px;
   font-family: "IBM Plex Sans", Helvetica, Arial, serif;
   font-style: normal;
-  font-size: 28px;
+  font-size: 26px;
   color: #ffffff;
   text-align: left;
   letter-spacing: -0.08px;
   line-height: 42px;
 }
 
-.writings_readings {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-between;
-}
-
 .subsectitle {
   font: 17px "IBM Plex Sans", Helvetica, Arial, serif;
   color: #838383;
+  text-align: left;
+  margin-left: 10%;
 }
-
-.writings {
-  margin-left: 70px;
-}
-
 .reads {
   margin-right: 280px;
 }
@@ -79,17 +72,18 @@ ul li {
   line-height: 40px;
 }
 .postbox {
-  background-color: #131313;
+  background-color: #161616;
   border-color: none;
   border-radius: 8px;
   height: 460px;
   width: 300px;
-  margin: 15px;
+  margin: 15px 15px 15px 0px;
 }
 .listtt {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .post_list .posttitle {
   font: bold 20px "IBM Plex Sans", Helvetica, Arial, serif;
@@ -97,44 +91,51 @@ ul li {
   padding-left: 20px;
   padding-right: 20px;
   text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 .post_list .description {
-  margin-top: 15px;
+  margin-top: 8px;
+  margin-bottom: 0px;
   padding-left: 20px;
   padding-right: 20px;
   font: 16px "IBM Plex Sans", Helvetica, Arial, serif;
   font-weight: 300;
   color: #ffffff;
   text-decoration: none;
-  line-height: 24px;
+  line-height: 22px;
 }
 .post_list .uploaddate {
   font: 16px "consola", Helvetica, Arial, serif;
   color: #9c9c9c;
   padding-left: 20px;
-  margin-top: 15px;
+  margin-top: 8px;
+  margin-bottom: 0px;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
-.post_list .uploadtime {
-  font: 16px "Inconsolata", Helvetica, Arial, serif;
-  color: #9c9c9c;
-  padding-left: 20px;
-  margin-top: 5px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
 .post_image {
-  padding: 24px;
+  padding: 15px;
   padding-bottom: 0px;
-  height: 250px;
-  width: 250px;
+  height: 290px;
+  width: 270px;
+}
+.blogbutton {
+  padding-top: 20px;
+  padding-right: 10px;
+  display: inline-block;
+  font: 20px "IBM Plex Sans", Helvetica, Arial, serif;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+  font-style: italic;
+}
+.bottompadding {
+  text-align: center;
+  padding-bottom: 150px;
 }
 @media screen and (max-width: 800px) {
-  .writings_readings {
-    flex-direction: column;
-  }
   .reads {
     margin-left: 70px;
     margin-right: 0px;
