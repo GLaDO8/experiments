@@ -5,6 +5,7 @@ import { Link, graphql } from "gatsby"
 import Social from "../components/social"
 import Footer from "../components/footer"
 import indexStyles from "./index.module.css"
+import Arrow from "../images/arrow.svg"
 import Img from "gatsby-image"
 import styled from "styled-components"
 
@@ -25,7 +26,7 @@ const IndexPage = props => {
       <Navbar />
       <SEO
         title="Shreyas Gupta"
-        keywords={[`Portfolio`, `Blog`, `Shreyas Gupta`]}
+        keywords={[`Portfolio`, `Blog`, `Shreyas Gupta`, `Design Portfolio`]}
       />
       <div class="intro"></div>
       <h1 class={indexStyles.primarytext}>Shreyas k. Gupta is a Designer.</h1>
@@ -39,39 +40,44 @@ const IndexPage = props => {
         day, one traffic jam at a time!
       </p>
       <h1 class={indexStyles.portfolio_title}>Writings & Readings</h1>
-      <div class={indexStyles.writings_readings}>
-        <div class={indexStyles.writings}>
-          <p class={indexStyles.subsectitle}>FRESH OUTTA KEYBOARD</p>
-          <div>
-            <div class={indexStyles.listtt}>
-              {postList.edges.map(({ node }, i) => (
-                <div class={indexStyles.postbox}>
-                  <StyledLink to={node.fields.slug} key={i} className="link">
-                    <div className={indexStyles.post_list}>
-                      <div class={indexStyles.post_image}>
-                        <Img
-                          fluid={
-                            node.frontmatter.thumbnail.childImageSharp.fixed
-                          }
-                        />
-                      </div>
-                      <p class={indexStyles.posttitle}>
-                        {node.frontmatter.title}
-                      </p>
-                      <p class={indexStyles.description}>
-                        {node.frontmatter.description}
-                      </p>
-                      <p class={indexStyles.uploaddate}>
-                        {node.frontmatter.date}
-                      </p>
+      <div class={indexStyles.writings}>
+        <p class={indexStyles.subsectitle}>FRESH OUTTA KEYBOARD</p>
+        <div>
+          <div class={indexStyles.listtt}>
+            {postList.edges.map(({ node }, i) => (
+              <div class={indexStyles.postbox}>
+                <StyledLink to={node.fields.slug} key={i} className="link">
+                  <div className={indexStyles.post_list}>
+                    <div class={indexStyles.post_image}>
+                      <Img
+                        fluid={node.frontmatter.thumbnail.childImageSharp.fixed}
+                      />
                     </div>
-                  </StyledLink>
-                </div>
-              ))}
-            </div>
+                    <p class={indexStyles.posttitle}>
+                      {node.frontmatter.title}
+                    </p>
+                    <p class={indexStyles.description}>
+                      {node.frontmatter.description}
+                    </p>
+                    <p class={indexStyles.uploaddate}>
+                      {node.frontmatter.date}
+                    </p>
+                  </div>
+                </StyledLink>
+              </div>
+            ))}
           </div>
         </div>
-        <div class={indexStyles.reads}>
+      </div>
+      <div class={indexStyles.bottompadding}>
+        <StyledLink to="/blog/">
+          <span class={indexStyles.blogbutton}>VIEW BLOG</span>
+          <span>
+            <Arrow class="svg" />
+          </span>
+        </StyledLink>
+      </div>
+      {/* <div class={indexStyles.reads}>
           <p class={indexStyles.subsectitle}>RECENT READS</p>
           <ul>
             <li>The less Wrong</li>
@@ -79,18 +85,17 @@ const IndexPage = props => {
             <li>Onion news</li>
             <li>Ribbonfarm blog</li>
           </ul>
-        </div>
-      </div>
+        </div> */}
 
-      <h1 class={indexStyles.portfolio_title}>Design Projects</h1>
-      <h1 class={indexStyles.portfolio_title}>Dev Projects</h1>
+      {/* <h1 class={indexStyles.portfolio_title}>Design Projects</h1>
+      <h1 class={indexStyles.portfolio_title}>Dev Projects</h1> */}
       <Footer />
     </div>
   )
 }
 export const query = graphql`
   query PostListQuery {
-    allMdx(sort: { fields: frontmatter___date, order: DESC }, limit: 3) {
+    allMdx(sort: { fields: frontmatter___date, order: DESC }, limit: 4) {
       edges {
         node {
           fields {

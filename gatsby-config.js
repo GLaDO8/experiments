@@ -1,7 +1,11 @@
 const path = require(`path`)
 module.exports = {
   siteMetadata: {
-    title: `Shreyas Gupta | Portfolio`,
+    title: "Shreyas Gupta",
+    description: "The Design and development portfolio of Shreyas gupta",
+    url: "https://www.glado8.github.io", // No trailing slash allowed!
+    image: "/images/snape.jpg", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@awwmaaigawwd",
   },
   plugins: [
     {

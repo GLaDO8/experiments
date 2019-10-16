@@ -48,7 +48,7 @@ const BlogPage = props => {
 export default BlogPage
 export const listQuery = graphql`
   query ListQuery {
-    allMdx(sort: { fields: frontmatter___date, order: DESC }, limit: 10) {
+    allMdx(sort: { fields: frontmatter___date, order: DESC }, limit: 100) {
       edges {
         node {
           fields {

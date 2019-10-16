@@ -1,14 +1,61 @@
-/* IBM plex sans */
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400i,700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
-
-/* IBM plex serif */
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif:600,700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap");
-
+/* Consola font */
 @font-face {
   font-family: "consola";
   src: url("../fonts/Consolas.woff") format("woff");
+}
+
+/* IBM Plex Sans font */
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("../fonts/IBMPlexSans-Bold.woff2") format("woff2"),
+    url("../fonts/IBMPlexSans-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: bold;
+}
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("../fonts/IBMPlexSans-SemiBold.woff2") format("woff2"),
+    url("../fonts/IBMPlexSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: bold;
+}
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("../fonts/IBMPlexSans-Medium.woff2") format("woff2"),
+    url("../fonts/IBMPlexSans-Medium.woff") format("woff");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("../fonts/IBMPlexSans.woff2") format("woff2"),
+    url("../fonts/IBMPlexSans.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("../fonts/IBMPlexSans-Italic.woff2") format("woff2"),
+    url("../fonts/IBMPlexSans-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("../fonts/IBMPlexSans-Light.woff2") format("woff2"),
+    url("../fonts/IBMPlexSans-Light.woff") format("woff");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("../fonts/IBMPlexSans-Thin.woff2") format("woff2"),
+    url("../fonts/IBMPlexSans-Thin.woff") format("woff");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("../fonts/IBMPlexSans-ExtraLight.woff2") format("woff2"),
+    url("../fonts/IBMPlexSans-ExtraLight.woff") format("woff");
+  font-weight: 100;
 }
 
 body {
