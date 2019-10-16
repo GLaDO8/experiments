@@ -86,9 +86,6 @@ const IndexPage = props => {
             <li>Ribbonfarm blog</li>
           </ul>
         </div> */}
-
-      {/* <h1 class={indexStyles.portfolio_title}>Design Projects</h1>
-      <h1 class={indexStyles.portfolio_title}>Dev Projects</h1> */}
       <Footer />
     </div>
   )

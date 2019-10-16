@@ -141,15 +141,15 @@ ul li {
     margin-right: 0px;
   }
   .postbox {
-    height: 560px;
-    width: 400px;
+    height: 500px;
+    width: 350px;
     margin: 15px 15px 15px 15px;
   }
   .post_image {
     height: 290px;
-    width: 370px;
+    width: 320px;
   }
   .post_list .posttitle {
-    margin-top: 130px;
+    margin-top: 70px;
   }
 }
