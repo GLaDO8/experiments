@@ -5,6 +5,8 @@ import Footer from "../components/footer"
 import StyledBlogpost from "./blog-post.module.css"
 import Img from "gatsby-image"
 import MDXRenderer from "gatsby-plugin-mdx/mdx-renderer"
+import { ThemeProvider } from "theme-ui"
+import theme from "../gatsby-plugin-theme-ui/index"
 
 function BlogPost(props) {
   const post = props.data.mdx
@@ -20,7 +22,11 @@ function BlogPost(props) {
         <p class={StyledBlogpost.title}>{title}</p>
         <p class={StyledBlogpost.subtitle}>{description}</p>
         <p class={StyledBlogpost.date}>{date}</p>
-        <MDXRenderer class={StyledBlogpost.main_body}>{post.body}</MDXRenderer>
+        <div class={StyledBlogpost.main_body}>
+          <ThemeProvider theme={theme}>
+            <MDXRenderer>{post.body}</MDXRenderer>
+          </ThemeProvider>
+        </div>
       </div>
       <Footer />
       {/* <div>

@@ -1,11 +1,13 @@
 ---
-title: "Architectural sustainability"
+title: "Architectural"
 description: "Can we embrace our fast paced economic growth with sustainability on the side?"
-date: "13 Sept, 2018 at 17:07"
+date: "12 Sept, 2018"
 thumbnail: "../src/images/awesome.png"
 cover: "../src/images/arch.jpg"
 tags: ["javascript", "react", "gatsby"]
 ---
+
+## how to start stuff
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation **ullamco** laboris nisi ut aliquip ex ea commodo [consequat](https://www.google.com). Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
