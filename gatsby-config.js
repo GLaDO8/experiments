@@ -25,8 +25,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content`,
-        name: "content",
+        path: path.join(__dirname, `content`),
+        name: `content`,
       },
     },
     {
@@ -83,4 +83,15 @@ module.exports = {
     `gatsby-plugin-polyfill-io`,
     `gatsby-plugin-theme-ui`,
   ],
+}
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions
+  if (node.internal.type === "Mdx") {
+    const route = createFilePath({ node, getNode, basePath: "posts" })
+    createNodeField({
+      node,
+      name: "route",
+      value: route,
+    })
+  }
 }

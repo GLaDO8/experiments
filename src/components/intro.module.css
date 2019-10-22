@@ -1,0 +1,65 @@
+.inline {
+  display: inline-block;
+}
+.centerAlign {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+.primarytext {
+  font: bold 66px "IBM Plex Serif", Helvetica, Arial, serif;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.2px;
+  line-height: 69px;
+  text-align: left;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  max-width: 550px;
+  padding: 0px 0px 0px 0px;
+}
+.dp {
+  padding-right: 40px;
+  padding-bottom: 20px;
+  width: 160px;
+}
+.italictext {
+  font: bold 76px "IBM Plex Serif", Helvetica, Arial, serif;
+  margin-bottom: 0%;
+  max-width: 550px;
+  padding: 0px 0px 0px 0px;
+  font-style: italic;
+}
+.secondarytext {
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  max-width: 750px;
+  padding: 10px 30px 50px 0px;
+  font-family: "IBM Plex Sans", Helvetica, Arial, serif;
+  font-style: normal;
+  font-size: 22px;
+  color: #ffffff;
+  text-align: left;
+  letter-spacing: -0.08px;
+  line-height: 38px;
+}
+@media screen and (max-width: 800px) {
+  .italictext {
+    font-size: 60px;
+  }
+  .primarytext {
+    font-size: 50px;
+    line-height: 55px;
+    max-width: 500px;
+  }
+  .primarytext,
+  .secondarytext,
+  .italictext {
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+  .dp {
+    display: none;
+  }
+}

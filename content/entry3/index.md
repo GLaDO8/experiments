@@ -1,9 +1,9 @@
 ---
 title: "Architectural sustainability"
 description: "Can we embrace our fast paced economic growth with sustainability on the side?"
-date: "15 Sept, 2018"
-thumbnail: "../src/images/awesome.png"
-cover: "../src/images/arch.jpg"
+date: "14 Sept, 2018"
+thumbnail: "../../src/images/awesome.png"
+cover: "../../src/images/arch.jpg"
 tags: ["javascript", "react", "gatsby"]
 ---
 
