@@ -22,9 +22,9 @@ const BlogPage = props => {
     <div>
       <Navbar />
       <div class={blogStyles.listtt}>
-        {postList.edges.map(({ node }, i) => (
+        {postList.edges.map(({ node }) => (
           <div class={blogStyles.postbox}>
-            <StyledLink to={node.fields.slug} key={i} className="link">
+            <StyledLink to={node.fields.slug} className="link">
               <div className={blogStyles.post_list}>
                 <div class={blogStyles.post_image}>
                   <Img

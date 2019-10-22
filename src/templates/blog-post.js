@@ -10,7 +10,7 @@ import theme from "../gatsby-plugin-theme-ui/index"
 
 function BlogPost(props) {
   const post = props.data.mdx
-  const { title, date, description, cover, tags } = post.frontmatter
+  const { title, date, description, cover } = post.frontmatter
 
   return (
     <div>

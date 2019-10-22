@@ -1,35 +1,38 @@
 .navbar {
-  justify-content: flex-start;
+  justify-content: flex-end;
   display: flex;
   position: absolute;
   top: 40px;
-  left: 100px;
+  right: 60px;
   z-index: 2;
 }
 .navbar .icon_text {
   text-decoration: none !important;
 }
 .main_logo {
-  margin: 37px 0px 0px 40px;
+  margin: 33px 0px 0px 60px;
 }
 .logo_text {
-  font: bold 22px "IBM Plex Sans", Helvetica, Arial, serif;
+  font: bold 28px "IBM Plex Sans", Helvetica, Arial, serif;
   color: #ffffff;
 }
 
 .icon_text {
   font: 18px "IBM Plex Sans", Helvetica, Arial, serif;
   color: #676767;
-  font-weight: 400;
   margin: 20px 0px 0px 30px;
   transition: 0.25s ease-in-out;
+  font-weight: 500;
+  letter-spacing: 1.4px;
 }
 .icon_text:hover {
   color: #ffffff;
 }
 @media screen and (max-width: 800px) {
   .navbar {
+    justify-content: flex-start;
     left: 80px;
+    right: 0px;
   }
   .main_logo {
     margin-left: 30px;

@@ -9,7 +9,7 @@
 
 .footer_box > div > .mail_box > .mail_link {
   font: 18px "consola", Helvetica, Arial, serif;
-  color: #737373;
+  color: #a0a0a0;
   padding-left: 50px;
 }
 .mail_box {
@@ -18,13 +18,13 @@
 .footer_title {
   padding-top: 30px;
   font: 22px "consola", Helvetica, Arial, serif;
-  color: #737373;
+  color: #a0a0a0;
   letter-spacing: 1.6px;
   padding-left: 50px;
 }
 .footer_content {
   font: 18px "IBM Plex Sans", Helvetica, Arial, serif;
-  color: #737373;
+  color: #a0a0a0;
   width: 500px;
   padding-left: 50px;
   padding-top: 10px;
@@ -35,16 +35,16 @@
 }
 .shoutout {
   font: 16px "IBM Plex Sans", Helvetica, Arial, serif;
-  color: #737373;
+  color: #a0a0a0;
   width: 250px;
   padding-top: 200px;
   padding-right: 50px;
 }
 .shoutout > span > a {
-  color: #737373;
+  color: #a0a0a0;
 }
 .shoutout > a {
-  color: #737373;
+  color: #a0a0a0;
 }
 @media screen and (max-width: 800px) {
   .footer_box {

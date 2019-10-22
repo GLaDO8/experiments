@@ -28,7 +28,7 @@ const sideBar = () => (
         <span class={navStyles.icon_text}>RESUME</span>
       </StyledLink>
       <StyledLink to="/contact/">
-        <span class={navStyles.icon_text}>CONTACT</span>
+        <span class={navStyles.icon_text}>ABOUT</span>
       </StyledLink>
     </div>
   </div>
