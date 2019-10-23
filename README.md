@@ -12,12 +12,13 @@ The repository has two branches, **master** and **master-source**
 * **master** - contains production-ready build, built using travis CI
 
 ### Features
-* MDX support
+* Full MDX support
 * Google analytics
-* Disqus comments
 * Self-hosted woff fonts
 
 ### Upcoming changes
 * CMS integration
 * Typography.js integration
 * Mobile-first CSS
+* Disqus comments
+* SEO
