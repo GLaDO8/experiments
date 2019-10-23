@@ -51,7 +51,6 @@
   .primarytext {
     font-size: 50px;
     line-height: 55px;
-    max-width: 500px;
   }
   .primarytext,
   .secondarytext,
@@ -61,5 +60,8 @@
   }
   .dp {
     display: none;
+  }
+  .centerAlign {
+    width: 100%;
   }
 }
