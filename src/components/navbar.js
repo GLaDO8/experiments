@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import navStyles from "./navbar.module.css"
+import navStyles from "../styles/navbar.module.css"
 import styled from "styled-components"
 
 const StyledLink = styled(Link)`

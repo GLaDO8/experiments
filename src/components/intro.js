@@ -1,6 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import introStyles from "./intro.module.css"
+import introStyles from "../styles/intro.module.css"
 import Img from "gatsby-image"
 
 export default () => (
