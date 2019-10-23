@@ -10,6 +10,7 @@ For now, you can find the portfolio at - https://glado8.github.io
 The repository has two branches, **master** and **master-source**
 * **master-source** - contains react source code
 * **master** - contains production-ready build, built using travis CI
+* **responsive-branch** - contains experimental code for small screen rendering
 
 ### Features
 * Full MDX support
