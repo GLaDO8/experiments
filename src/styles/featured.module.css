@@ -61,18 +61,18 @@
 }
 @media screen and (max-width: 800px) {
   .postbox {
-    height: 400px;
-    width: 400px;
+    height: 380px;
+    width: 350px;
     margin: 15px 15px 15px 15px;
   }
   .post_list .posttitle {
     margin-top: 0px;
   }
   .post_image {
-    height: 230px;
-    width: 370px;
+    height: 200px;
+    width: 320px;
   }
   .post_list .description {
-    width: 350px;
+    width: 300px;
   }
 }
