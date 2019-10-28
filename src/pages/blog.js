@@ -62,7 +62,6 @@ export const listQuery = graphql`
               childImageSharp {
                 fixed(width: 800) {
                   base64
-                  tracedSVG
                   aspectRatio
                   width
                   height

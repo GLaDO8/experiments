@@ -14,7 +14,6 @@ export default () => (
                 childImageSharp {
                   fixed {
                     base64
-                    tracedSVG
                     aspectRatio
                     width
                     height
