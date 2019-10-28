@@ -1,0 +1,42 @@
+.postbox {
+  margin: 15px 10px 15px 0px;
+}
+.post_list .posttitle {
+  font: bold 30px "IBM Plex Sans", Helvetica, Arial, serif;
+  color: #ffffff;
+  margin: 0px 20px 0px 20px;
+  text-decoration: none;
+}
+.post_list .description {
+  margin: 15px 20px 0px 20px;
+  font: 20px "IBM Plex Sans", Helvetica, Arial, serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-decoration: none;
+  line-height: 28px;
+  overflow-wrap: break-word;
+  width: 650px;
+}
+.post_list .uploaddate {
+  font: 16px "consola", Helvetica, Arial, serif;
+  color: #636363;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 800px) {
+  .postbox {
+    margin: 0px;
+  }
+  .post_list > .posttitle,
+  .post_list > .description,
+  .post_list > .uploaddate {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 90%;
+  }
+}

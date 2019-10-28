@@ -4,7 +4,7 @@ import Instagram from "../images/instagram.svg"
 import Twitter from "../images/twitter.svg"
 import Linkedin from "../images/linkedin.svg"
 import Github from "../images/github.svg"
-import socialStyles from "./social.module.css"
+import socialStyles from "../styles/social.module.css"
 
 const Social = () => (
   <div class={socialStyles.icon_tray}>

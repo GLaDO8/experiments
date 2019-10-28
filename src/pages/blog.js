@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Navbar from "../components/navbar"
 import Footer from "../components/footer"
-import blogStyles from "./blog.module.css"
+import blogStyles from "../styles/blog.module.css"
 import Img from "gatsby-image"
 import styled from "styled-components"
 
@@ -62,7 +62,6 @@ export const listQuery = graphql`
               childImageSharp {
                 fixed(width: 800) {
                   base64
-                  tracedSVG
                   aspectRatio
                   width
                   height

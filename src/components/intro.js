@@ -1,6 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import introStyles from "./intro.module.css"
+import introStyles from "../styles/intro.module.css"
 import Img from "gatsby-image"
 
 export default () => (
@@ -14,7 +14,6 @@ export default () => (
                 childImageSharp {
                   fixed {
                     base64
-                    tracedSVG
                     aspectRatio
                     width
                     height

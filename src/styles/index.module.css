@@ -1,0 +1,52 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #0a080b;
+}
+.subsectitle {
+  font: 17px "IBM Plex Sans", Helvetica, Arial, serif;
+  color: #9c9c9c;
+  text-align: left;
+  margin-left: 20px;
+}
+.maincontent {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.findings {
+  width: 400px;
+}
+.blogbutton {
+  padding-right: 10px;
+  font: 20px "IBM Plex Sans", Helvetica, Arial, serif;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+  font-style: italic;
+}
+.bottompadding {
+  margin: -20px 0px 150px 20px;
+}
+@media screen and (max-width: 800px) {
+  .maincontent {
+    flex-direction: column;
+  }
+  .subsectitle {
+    margin-left: 30px;
+  }
+  .bottompadding {
+    margin-left: 30px;
+  }
+  .maincontent {
+    justify-content: space-around;
+  }
+  .bottompadding {
+    margin-bottom: 30px;
+  }
+  .findings {
+    margin-bottom: 50px;
+  }
+}
