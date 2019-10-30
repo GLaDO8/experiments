@@ -40,10 +40,10 @@ export default () => (
       </div>
     </div>
     <p class={introStyles.secondarytext}>
-      I’m self-taught designer and developer based in India. Fiddled around with
-      Deep learning for a while, won a couple of hackathons before deciding to
-      pursue design full-time. I’m now in Bangalore, living each day, one
-      traffic jam at a time!
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
     </p>
   </div>
 )
