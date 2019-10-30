@@ -20,8 +20,8 @@ export default {
     },
     p: {
       fontFamily: "IBM Plex Sans",
-      fontSize: 22,
-      fontWeight: 300,
+      fontSize: 18,
+      fontWeight: 400,
       letterSpacing: "0.06em",
     },
     a: {
