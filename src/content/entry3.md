@@ -1,11 +1,14 @@
 ---
-title: "Architectural sustainability"
+title: "Metaphors we believe by: the pantheon of 2019"
 description: "Can we embrace our fast paced economic growth with sustainability on the side?"
 date: "14 Sept, 2018"
-thumbnail: "../images/awesome2.png"
+thumbnail: "../images/awesome.png"
+tags: ["animals", "Chicago", "zoos"]
+featured_thumbnail: "../images/awesome2.png"
 excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 cover: "../images/arch.jpg"
-tags: ["javascript", "react", "gatsby"]
+covercredits: "image by Daniel sebler taken from unsplash"
+creditslink: "https://www.pexels.com/photo/black-textile-952670/"
 ---
 
 ## how to start stuff

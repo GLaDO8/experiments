@@ -28,7 +28,7 @@ export default () => (
                   date
                   title
                   description
-                  thumbnail {
+                  featured_thumbnail {
                     childImageSharp {
                       fixed(width: 800) {
                         base64
@@ -58,7 +58,10 @@ export default () => (
                   <div className={indexStyles.post_list}>
                     <div class={indexStyles.post_image}>
                       <Img
-                        fluid={node.frontmatter.thumbnail.childImageSharp.fixed}
+                        fluid={
+                          node.frontmatter.featured_thumbnail.childImageSharp
+                            .fixed
+                        }
                       />
                     </div>
                     <p class={indexStyles.posttitle}>

@@ -2,10 +2,14 @@
   margin: 15px 10px 15px 0px;
 }
 .post_list .posttitle {
-  font: bold 30px "IBM Plex Sans", Helvetica, Arial, serif;
+  font: 30px "Montserrat", Helvetica, Arial, serif;
   color: #ffffff;
   margin: 0px 20px 0px 20px;
   text-decoration: none;
+  width: 650px;
+}
+.postbox:hover .post_list > .posttitle {
+  text-decoration: underline;
 }
 .post_list .description {
   margin: 15px 20px 0px 20px;

@@ -64,6 +64,14 @@
   font-weight: 700;
 }
 @font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Black.ttf");
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.ttf");
+}
+@font-face {
   font-family: "IBM Plex Serif";
   src: url("../fonts/IBMPlexSerif-BoldItalic.woff2") format("woff2"),
     url("../fonts/IBMPlexSerif-BoldItalic.woff") format("woff");
