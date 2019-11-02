@@ -2,8 +2,6 @@
   background-color: #161616;
   border-color: none;
   border-radius: 8px;
-  height: 520px;
-  width: 650px;
   margin: 15px 10px 15px 0px;
 }
 .listtt {
@@ -13,15 +11,13 @@
   justify-content: space-evenly;
 }
 .post_list .posttitle {
-  font: bold 20px "IBM Plex Sans", Helvetica, Arial, serif;
+  font: bold 24px "IBM Plex Sans", Helvetica, Arial, serif;
   color: #ffffff;
-  padding: 0px 20px 0px 20px;
   text-decoration: none;
-  margin: 80px 0px 0px 0px;
+  margin: 80px 20px 0px 20px;
 }
 .post_list .description {
-  margin: 10px 0px 0px 0px;
-  padding: 0px 20px 0px 20px;
+  margin: 5px 20px 0px 20px;
   font: 20px "IBM Plex Sans", Helvetica, Arial, serif;
   font-weight: 300;
   color: #ffffff;
@@ -32,9 +28,7 @@
 .post_list .uploaddate {
   font: 16px "consola", Helvetica, Arial, serif;
   color: #9c9c9c;
-  padding-left: 20px;
-  margin-top: 8px;
-  margin-bottom: 0px;
+  margin: 8px 0px 15px 20px;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -59,9 +53,11 @@
   text-align: center;
   padding-bottom: 150px;
 }
+.postbox:hover .post_list > .posttitle {
+  text-decoration: underline;
+}
 @media screen and (max-width: 800px) {
   .postbox {
-    height: 380px;
     width: 350px;
     margin: 15px 15px 15px 15px;
   }
@@ -74,5 +70,8 @@
   }
   .post_list .description {
     width: 300px;
+  }
+  .post_list .uploaddate {
+    margin-bottom: 15px;
   }
 }
