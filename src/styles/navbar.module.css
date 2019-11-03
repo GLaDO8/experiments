@@ -25,6 +25,18 @@
   font-weight: 400;
   letter-spacing: 2.4px;
 }
+.icon_text_a {
+  font: 20px "Roboto Mono", Helvetica, Arial, serif;
+  color: #777777;
+  margin: 0px 0px 0px 30px;
+  transition: 0.25s ease-in-out;
+  font-weight: 400;
+  letter-spacing: 2.4px;
+  text-decoration: none;
+}
+.icon_text_a:hover {
+  color: #ffffff;
+}
 .icon_text:hover {
   color: #ffffff;
 }

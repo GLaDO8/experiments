@@ -24,9 +24,14 @@ const sideBar = () => (
       <StyledLink to="/blog/">
         <span class={navStyles.icon_text}>BLOG</span>
       </StyledLink>
-      <StyledLink to="/blog/">
-        <span class={navStyles.icon_text}>RESUME</span>
-      </StyledLink>
+      <a
+        href="/resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        class={navStyles.icon_text_a}
+      >
+        RESUME
+      </a>
       <StyledLink to="/contact/">
         <span class={navStyles.icon_text}>ABOUT</span>
       </StyledLink>

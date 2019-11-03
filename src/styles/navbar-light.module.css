@@ -17,12 +17,24 @@
 }
 
 .icon_text {
-  font: 18px "Roboto Mono", Helvetica, Arial, serif;
+  font: 20px "Roboto Mono", Helvetica, Arial, serif;
   color: #a3a3a3;
   margin: 20px 0px 0px 30px;
   transition: 0.25s ease-in-out;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1.4px;
+}
+.icon_text_a {
+  font: 20px "Roboto Mono", Helvetica, Arial, serif;
+  color: #a3a3a3;
+  margin: 0px 0px 0px 30px;
+  transition: 0.25s ease-in-out;
+  font-weight: 400;
+  letter-spacing: 2.4px;
+  text-decoration: none;
+}
+.icon_text_a:hover {
+  color: #000;
 }
 .icon_text:hover {
   color: #000;
