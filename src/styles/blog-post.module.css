@@ -1,46 +1,65 @@
 .article {
   display: grid;
-  grid-template-columns: 1fr 700px 1fr;
+  grid-template-columns: 1fr 650px 1fr;
 }
 /* the "\*" is basically selecting all content. the backslash is to escape syntax */
 .article > \* {
   grid-column: 2;
 }
-.date {
-  font: 16px "consola", Helvetica, Arial, serif;
-  margin-top: -10px;
-  color: #7f7f7f;
+.metadata {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.metacontent {
+  font: 15px "Roboto Mono", Helvetica, Arial, serif;
+  margin: -10px 50px 15px 0px;
+  color: #000;
   letter-spacing: 1.22px;
   text-transform: uppercase;
-}
-.time {
-  color: #000;
+  font-weight: 300;
 }
 .title {
-  font: 46px "Montserrat", Helvetica, Arial, serif;
+  font: 42px "Roboto Mono", Helvetica, Arial, serif;
   color: #000;
   text-align: left;
   margin-top: 150px;
   line-height: 1em;
+  font-weight: 700;
 }
 .subtitle {
-  font: 20px "IBM Plex Sans", Helvetica, Arial, serif;
+  font: 20px "body", Helvetica, Arial, serif;
   margin-top: -30px;
   text-align: left;
-  font-weight: 300;
+  font-weight: 400;
+  letter-spacing: 1px;
   color: #000;
-}
-.main_body {
-  margin-bottom: 100px;
 }
 .cover_image {
   margin: 10px 0px 5px 0px;
 }
 .credits {
-  font: 12px "IBM Plex Sans", Helvetica, Arial, serif;
+  font: 12px "Roboto Mono", Helvetica, Arial, serif;
   margin: 0px 0px 50px 0px;
   color: #000;
   font-weight: 300;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  list-style: none;
+  padding: 0px;
+  margin-top: -5px;
+}
+.tagtitle {
+  font: bold 20px "Roboto Mono", Helvetica, Arial, serif;
+  color: #000;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 700;
+  letter-spacing: 0.87px;
 }
 @media screen and (max-width: 800px) {
   .article {
@@ -56,9 +75,18 @@
     margin: 20px 15px 0px 15px;
   }
   .main_body {
-    margin: 20px 15px 100px 15px;
+    margin: 20px 15px 50px 15px;
   }
   .credits {
+    margin-left: 15px;
+  }
+  .metacontent {
+    margin: 10px 50px 15px 15px;
+  }
+  .tags {
+    margin-left: 15px;
+  }
+  .tagtitle {
     margin-left: 15px;
   }
 }

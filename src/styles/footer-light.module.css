@@ -7,7 +7,7 @@
 }
 
 .footer_box > div > .mail_box > .mail_link {
-  font: 18px "consola", Helvetica, Arial, serif;
+  font: 18px "Roboto Mono", Helvetica, Arial, serif;
   color: #a0a0a0;
   padding-left: 50px;
 }
@@ -16,13 +16,13 @@
 }
 .footer_title {
   padding-top: 30px;
-  font: 22px "consola", Helvetica, Arial, serif;
+  font: 22px "Roboto Mono", Helvetica, Arial, serif;
   color: #a0a0a0;
   letter-spacing: 1.6px;
   padding-left: 50px;
 }
 .footer_content {
-  font: 18px "IBM Plex Sans", Helvetica, Arial, serif;
+  font: 18px "Roboto Mono", Helvetica, Arial, serif;
   color: #a0a0a0;
   width: 500px;
   padding-left: 50px;
@@ -33,7 +33,7 @@
   padding-top: 20px;
 }
 .shoutout {
-  font: 16px "IBM Plex Sans", Helvetica, Arial, serif;
+  font: 16px "Roboto Mono", Helvetica, Arial, serif;
   color: #a0a0a0;
   width: 250px;
   padding-top: 200px;

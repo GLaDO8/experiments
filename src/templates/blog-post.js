@@ -24,6 +24,20 @@ const GlobalStyle = createGlobalStyle`
 `
 const StyledLink = styled(Link)`
   text-decoration: none;
+  font: 12px "Roboto Mono", Helvetica, Arial, serif;
+  color: #000;
+  font-weight: 400;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  padding: 5px 10px 5px 10px;
+  text-transform: uppercase;
+  margin-right: 20px;
+  letter-spacing: 0.87px;
+  transition: 0.25s all ease-in-out;
+
+  &:hover {
+    background-color: #e7e7e7;
+  }
 `
 function BlogPost(props) {
   const post = props.data.mdx
@@ -46,8 +60,10 @@ function BlogPost(props) {
       <div class={StyledBlogpost.article}>
         <p class={StyledBlogpost.title}>{title}</p>
         <p class={StyledBlogpost.subtitle}>{description}</p>
-        <p class={StyledBlogpost.date}>{date}</p>
-        <p class={StyledBlogpost.time}>{words}</p>
+        <div class={StyledBlogpost.metadata}>
+          <p class={StyledBlogpost.metacontent}>{date}</p>
+          <p class={StyledBlogpost.metacontent}>{words}</p>
+        </div>
         <div class={StyledBlogpost.cover_image}>
           <Img sizes={cover.childImageSharp.fixed} />
         </div>
@@ -66,14 +82,17 @@ function BlogPost(props) {
         </div>
 
         {/* generate tag links */}
+        <p class={StyledBlogpost.tagtitle}>TAGS</p>
         <div>
           tags:
           <ul
+            class={StyledBlogpost.tags}
             style={{
               display: `flex`,
               flexWrap: `wrap`,
-              justifyContent: `space-around`,
+              justifyContent: `left`,
               listStyle: `none`,
+              margin: `none`,
             }}
           >
             {tags.map(t => (

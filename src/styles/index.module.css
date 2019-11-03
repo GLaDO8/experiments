@@ -4,7 +4,7 @@ body {
   background-color: #0a080b;
 }
 .subsectitle {
-  font: 17px "IBM Plex Sans", Helvetica, Arial, serif;
+  font: 17px "Roboto Mono", Helvetica, Arial, serif;
   color: #9c9c9c;
   text-align: left;
   margin-left: 20px;
@@ -21,7 +21,7 @@ body {
 }
 .blogbutton {
   padding-right: 10px;
-  font: 20px "IBM Plex Sans", Helvetica, Arial, serif;
+  font: 20px "Roboto Mono", Helvetica, Arial, serif;
   color: #ffffff;
   text-align: center;
   font-weight: 500;

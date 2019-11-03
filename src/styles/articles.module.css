@@ -2,18 +2,19 @@
   margin: 15px 10px 15px 0px;
 }
 .post_list .posttitle {
-  font: 30px "Montserrat", Helvetica, Arial, serif;
+  font: 30px "Roboto Mono", Helvetica, Arial, serif;
   color: #ffffff;
   margin: 0px 20px 0px 20px;
   text-decoration: none;
   width: 650px;
+  font-weight: 700;
 }
 .postbox:hover .post_list > .posttitle {
   text-decoration: underline;
 }
 .post_list .description {
   margin: 15px 20px 0px 20px;
-  font: 20px "IBM Plex Sans", Helvetica, Arial, serif;
+  font: 20px "Roboto Mono", Helvetica, Arial, serif;
   font-weight: 300;
   color: #ffffff;
   text-decoration: none;
@@ -22,7 +23,7 @@
   width: 650px;
 }
 .post_list .uploaddate {
-  font: 16px "consola", Helvetica, Arial, serif;
+  font: 16px "Roboto Mono", Helvetica, Arial, serif;
   color: #636363;
   margin-left: 20px;
   margin-top: 15px;
@@ -30,6 +31,7 @@
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 800px) {

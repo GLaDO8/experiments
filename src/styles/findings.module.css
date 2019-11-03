@@ -3,8 +3,12 @@
   margin-top: 20px;
 }
 .reads > ul > li {
-  font: italic 20px "IBM Plex Sans", Helvetica, Arial, serif;
+  font: italic 20px "Roboto Mono", Helvetica, Arial, serif;
   font-weight: 400;
   line-height: 40px;
   padding: 0px;
+  transition: 0.25s all ease-in-out;
+}
+.reads > ul > li:hover {
+  font-size: 24px;
 }

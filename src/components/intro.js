@@ -35,7 +35,7 @@ export default () => (
         />
       </div>
       <div class={introStyles.inline}>
-        <p class={introStyles.italictext}>Netizen,</p>
+        <p class={introStyles.primarytext}>Netizen,</p>
         <p class={introStyles.primarytext}>Welcome. I'm Shreyas Gupta.</p>
       </div>
     </div>

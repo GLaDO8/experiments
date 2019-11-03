@@ -12,16 +12,16 @@
   margin: 33px 0px 0px 60px;
 }
 .logo_text {
-  font: bold 28px "IBM Plex Sans", Helvetica, Arial, serif;
+  font: bold 28px "Roboto Mono", Helvetica, Arial, serif;
   color: #000;
 }
 
 .icon_text {
-  font: 18px "IBM Plex Sans", Helvetica, Arial, serif;
-  color: #676767;
+  font: 18px "Roboto Mono", Helvetica, Arial, serif;
+  color: #a3a3a3;
   margin: 20px 0px 0px 30px;
   transition: 0.25s ease-in-out;
-  font-weight: 500;
+  font-weight: 300;
   letter-spacing: 1.4px;
 }
 .icon_text:hover {
@@ -34,7 +34,7 @@
     right: 0px;
   }
   .main_logo {
-    margin-left: 30px;
+    margin-left: 20px;
   }
   .icon_text {
     margin-left: 20px;

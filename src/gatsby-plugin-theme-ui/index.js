@@ -1,14 +1,14 @@
 export default {
   breakpoints: ["40em", "52em", "64em"],
   fontWeights: {
-    body: 400,
+    body: 300,
     heading: 700,
     bold: 700,
   },
   fonts: {
-    body: "IBM Plex Sans, Helvetica, Arial, serif",
-    heading: "IBM Plex Sans, Helvetica, Arial, serif",
-    monospace: "consola, Helvetica, Arial, serif",
+    body: "body, Helvetica, Arial, serif",
+    heading: "Roboto Mono, Helvetica, Arial, serif",
+    monospace: "Roboto Mono, Helvetica, Arial, serif",
   },
   colors: {
     text: "#000",
@@ -18,13 +18,14 @@ export default {
   styles: {
     // the keys used here reference elements in MDX
     h1: {
-      fontFamily: "body",
+      fontFamily: "heading",
       marginTop: 0,
       marginBottom: 3,
+      letterSpacing: "0.01em",
       color: "text",
     },
     h2: {
-      fontFamily: "body",
+      fontFamily: "heading",
       fontSize: 26,
       marginTop: 0,
       marginBottom: 0,
@@ -32,7 +33,7 @@ export default {
     },
     p: {
       fontFamily: "body",
-      fontSize: 18,
+      fontSize: 17,
       fontWeight: 400,
       letterSpacing: "0.03em",
       color: "text",
