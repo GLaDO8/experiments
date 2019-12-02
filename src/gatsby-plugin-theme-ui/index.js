@@ -37,6 +37,7 @@ export default {
       fontWeight: 400,
       letterSpacing: "0.03em",
       color: "text",
+      lineHeight: "1.5em",
     },
     a: {
       fontFamily: "body",
