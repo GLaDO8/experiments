@@ -14,10 +14,3 @@ The repository has two branches, **master** and **master-source**
 * Full MDX support
 * Google analytics
 * Self-hosted woff fonts
-
-### Upcoming changes
-* CMS integration
-* Typography.js integration
-* Mobile-first CSS
-* Disqus comments
-* SEO
